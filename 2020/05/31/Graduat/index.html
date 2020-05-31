@@ -16,7 +16,7 @@
   <meta name="description" content="">
   <meta name="author" content="John Doe">
   <meta name="keywords" content="">
-  <title>归档 ~ Aeolissus</title>
+  <title>Graduate ~ Aeolissus</title>
 
   <link rel="stylesheet" href="/lib/font-awesome/css/all.min.css"  >
 <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css"  >
@@ -106,7 +106,7 @@
   </div>
 </nav>
 
-    <div class="view intro-2" id="background" parallax=true
+    <div class="view intro-2" id="background" false
          style="background: url('/img/peace.jpg')no-repeat center center;
            background-size: cover;">
       <div class="full-bg-img">
@@ -116,6 +116,17 @@
               
             </span>
 
+            
+              <br>
+              
+
+              <p>
+                
+
+                
+
+                
+              </p>
             
           </div>
 
@@ -127,41 +138,59 @@
 
   <main>
     
-      <div class="container nopadding-md">
-        <div class="py-5 z-depth-3" id="board">
-          
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-10 m-auto">
-                
-
-<div class="list-group">
-  <p class="h4">共计 2 篇文章</p>
-  <hr>
-  
-    
       
-      <p class="h5">2020</p>
-    
-    <a href="/2020/05/31/Graduat/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">Graduate</span>
-      <span style="float: right;">05-31</span>
-    </a>
-  
-    
-    <a href="/2020/03/04/hello-world/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">Hello World</span>
-      <span style="float: right;">03-04</span>
-    </a>
-  
-</div>
 
+<div class="container-fluid">
+  <div class="row">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-md">
+      <div class="py-5 z-depth-3" id="board">
+        <div class="post-content mx-auto" id="post">
+          <div class="markdown-body">
+            <p>这两天看着同学们在朋友圈里发毕业照。想起去年这个时候厌倦了在学校做课题写代码的生活，跟导师商量着放自己出去实习，并且打算实习完半年后提前毕业，导师虽然觉得我的课题不做下去可惜了，但最后还是尊重我的选择让我提前毕业了。</p>
+<p>一月毕业，因为疫情原因三月中旬才正式入职，系统研发，之前从没想过自己一毕业就能到总体的岗位上。每天做技术的同时还要和作为主机所的甲方、做军品的乙方打交道，协调公司里面各个部门来配合自己的工作。</p>
+<p>甲方：你的邮件要抄送给谁谁谁，请按照要求重发一遍。<br>
+乙方：我做军机的时间比你坐民机的时间还长。<br>
+软件部：你这个怎么到处都是问题。（一直觉得公司里最难打交道的就是软件研发部，你们软件写成什么样自己心里没点儿数呀）<br>
+……</p>
+<p>工作两个月以来晚上睡前心里都会想着明天要跟谁明确什么内容，要做什么，有时做梦都会梦到自己把硬件设计错了，被叫到主机所里背书。直到现在这种状态都还有。<br>
+昨晚大学室友收拾东西，翻出几年前我写给他的东西，他说我是不是每天累成狗了，是不是后悔提前毕业，是不是后悔当初没去做软件。我说还好，虽然工作一直受挫，但感觉这种状态比当学生好。</p>
+<p>2020，毕业，疫情，工作…</p>
 
-              </div>
-            </div>
+            <hr>
+          </div>
+          <br>
+          <div>
+            <p>
+            
+            
+            </p>
+            
           </div>
         </div>
       </div>
+    </div>
+    <div class="d-none d-lg-block col-lg-2 toc-container">
+      
+  <div id="toc">
+    <p class="h4"><i class="far fa-list-alt"></i>&nbsp;目录</p>
+    <div id="tocbot"></div>
+  </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- custom -->
+
+
+<!-- Comments -->
+<div class="col-lg-7 mx-auto nopadding-md">
+  <div class="container comments mx-auto" id="comments">
+    
+  </div>
+</div>
+
     
   </main>
 
@@ -226,6 +255,11 @@
 
 
 
+  
+    <script src="/lib/tocbot/tocbot.min.js" ></script>
+  
+  <script src="/js/post.js" ></script>
+
 
 
   <script src="/lib/smoothscroll/SmoothScroll.min.js" ></script>
@@ -252,7 +286,7 @@
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "归档&nbsp;",
+        "Graduate&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 180,
